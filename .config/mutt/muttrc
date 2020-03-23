@@ -1,0 +1,17 @@
+# Here goes your account config ;-)
+
+source ~/.config/mutt/theme.muttrc
+
+# GPG configuration
+
+source ~/.config/mutt/gpg.rc
+
+# Emacs would be an overkill ;-)
+
+set editor="jed"
+
+# Autosign message
+set crypt_autosign = yes
+# Encrypt if possible
+set crypt_opportunistic_encrypt = yes
+
