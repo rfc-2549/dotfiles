@@ -14,4 +14,7 @@ set editor="jed"
 set crypt_autosign = yes
 # Encrypt if possible
 set crypt_opportunistic_encrypt = yes
-
+# use w3 browser for html messages
+auto_view text/html
+# Url view for html emails
+macro index,pager \cb "<pipe-message> urlscan<Enter>" "call urlscan to extract URLs out of a message"
